@@ -13,6 +13,10 @@
 		1F387C6A1BA3955C00A2629B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F387C691BA3955C00A2629B /* Images.xcassets */; };
 		1F387C6D1BA3955C00A2629B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F387C6B1BA3955C00A2629B /* LaunchScreen.xib */; };
 		1F387C791BA3955C00A2629B /* regformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F387C781BA3955C00A2629B /* regformTests.swift */; };
+		1F387C831BA39A8B00A2629B /* UIBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F387C821BA39A8B00A2629B /* UIBorderedButton.swift */; };
+		1F387C851BA3A50800A2629B /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F387C841BA3A50800A2629B /* RegistrationViewController.swift */; };
+		1F387C871BA3A51A00A2629B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F387C861BA3A51A00A2629B /* User.swift */; };
+		1F387C891BA3A52700A2629B /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F387C881BA3A52700A2629B /* Server.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		1F387C721BA3955C00A2629B /* regformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = regformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F387C771BA3955C00A2629B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F387C781BA3955C00A2629B /* regformTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = regformTests.swift; sourceTree = "<group>"; };
+		1F387C821BA39A8B00A2629B /* UIBorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBorderedButton.swift; sourceTree = "<group>"; };
+		1F387C841BA3A50800A2629B /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		1F387C861BA3A51A00A2629B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1F387C881BA3A52700A2629B /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 				1F387C621BA3955C00A2629B /* AppDelegate.swift */,
 				1F387C641BA3955C00A2629B /* ViewController.swift */,
 				1F387C661BA3955C00A2629B /* Main.storyboard */,
+				1F387C841BA3A50800A2629B /* RegistrationViewController.swift */,
+				1F387C861BA3A51A00A2629B /* User.swift */,
+				1F387C881BA3A52700A2629B /* Server.swift */,
+				1F387C821BA39A8B00A2629B /* UIBorderedButton.swift */,
 				1F387C691BA3955C00A2629B /* Images.xcassets */,
 				1F387C6B1BA3955C00A2629B /* LaunchScreen.xib */,
 				1F387C601BA3955C00A2629B /* Supporting Files */,
@@ -212,7 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F387C831BA39A8B00A2629B /* UIBorderedButton.swift in Sources */,
 				1F387C651BA3955C00A2629B /* ViewController.swift in Sources */,
+				1F387C851BA3A50800A2629B /* RegistrationViewController.swift in Sources */,
+				1F387C871BA3A51A00A2629B /* User.swift in Sources */,
+				1F387C891BA3A52700A2629B /* Server.swift in Sources */,
 				1F387C631BA3955C00A2629B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
